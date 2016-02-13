@@ -1,0 +1,52 @@
+/*All*/
+*{
+	text-decoration: none;
+	font-family: Arial;
+}
+
+/*section header*/
+.header{
+	color:white;
+}
+
+.header a{
+	color:white;
+}
+.navegador a {
+	font-weight: 600;
+}
+.navegador a:hover{
+	color: #0dc0c0;
+}
+body{
+  	background-image: url("../img/background/hero.jpg"); 
+ 	background-size:100% 132%;
+ 	background-repeat: no-repeat;
+	background-attachment: fixed;	
+
+}
+.plomo {
+	background-color: rgba(0,0,0,0.5);
+	height: 100vh;
+
+}
+.navegador a:nth-of-type(2n+2){
+	padding: 0% 8%;
+}
+.nav {
+	padding:2% 0%;
+}
+
+.laptop{
+	padding: 10% 12%;
+}
+.launch{
+	font-size: 3.2rem;
+}
+.vivamus{
+	padding:3.9% 0%;
+}
+.texto {
+	
+	background-color: white;
+}
