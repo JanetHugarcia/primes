@@ -38,6 +38,12 @@ strong {
 .pr-5{
 	padding-right: 5%;
 }
+.pl-10{
+	padding-left: 10%;
+}
+.pr-10{
+	padding-right: 10%;
+}
 .mg-0{
 	margin: 0;
 }
@@ -60,12 +66,18 @@ strong {
 .text-white{
 	color: white;
 }
+.text-gray-dark{
+	color: #4F565F;
+}
+.text-gray-light{
+	color: #ABABAB;
+}
 .text-gray{
 	color: #888;
 }
 
 .text-green{
- 	color: #0dc0c0;
+ 	color: #0098A5;
 }
 
 .active {
