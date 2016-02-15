@@ -4,8 +4,9 @@
 }
 
 body{
-	font-size: 1.8rem;
+	
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.8rem;
 }
 /*Fin All*/
 
@@ -25,19 +26,22 @@ body{
 .header a{
 	color:white;
 }
-.navegador a:hover{
+.navegador a:hover, .header h3:hover{
 	color: #0098A5;
+}
+.navegador a{
+		font-size: 1.6rem;
 }
 .header{
 	background-image: url("../img/background/hero.jpg") ; 
-	background-size:100% 132%;
+	background-size:100% 132% ;
 	background-repeat: no-repeat;
 	background-attachment: fixed;	
 }
 .plomo-hero {
 	background-color: rgba(0,0,0,0.5);
 	height: 100vh;
-}
+}	
 .menu-fixed{
 	position:fixed;
 	z-index:1000;
@@ -49,9 +53,10 @@ body{
 	background-color: #0098A5;
 	color:black;
 }
-.menu-fixed a:hover{
+.menu-fixed a:hover, .menu-fixed h3:hover {
 	color:black;
 }
+
 .navegador a:nth-of-type(2n+2){
 	padding: 0% 8%;
 }
@@ -210,10 +215,7 @@ body{
 
 @media screen and (max-width: 1001px) {
 	.navegador a:nth-of-type(2n+2){
-		padding: 0% 4%;
-	}
-	.navegador a{
-		font-size: 1.2rem;
+		padding: 0% 2.5%;
 	}
 	.header .menu , .header .container-fluid{
 		padding: 0%;
@@ -221,18 +223,25 @@ body{
 	.menu .navegador {
 		text-align: center;
 	}
+	.menu-fixed .navegador {
+	padding: 3% 0%;	
+	}
+	.menu-fixed a {
+	font-size: 1.6rem;
+	}
+	.navegador a{
+		font-size: 1.5rem;
+	}
 	.launch {
 		font-size: 4.7rem;
-		padding:6% 15% 0%;
+		padding: 15% 20% 3%;
 		line-height: 1;
-
 	}
 	.vivamus{
-		padding:0% 16% 2%;
+		padding:0% 16% 4%;
 		font-size: 1.5rem;
 		line-height: 1;
 	}
-
 	.header{
 		background-size: 202% 100%;
 	}
@@ -241,6 +250,14 @@ body{
 		padding-top: 2%;
 		font-size: 1.8rem;
 		font-weight: 600;
+	}
+
+	.min-title p:nth-child(3) ,.min-title2 p:nth-child(3){
+	font-size: 1.3rem;
+
+	}
+	.two .row {
+    padding: 5% 4% 0%;
 	}
 }
 
@@ -367,12 +384,26 @@ body{
 	font-size: 1.3rem;
 	margin:2% auto 8%;
 }
+.cont_columna2{
+	font-size: 1.5rem;
+	margin:1% auto 8%;
+	margin-left: 14%;
+	margin-right: 2%;
+}
 .subs{
 	padding-bottom: 6%;
 	font-size: 1.8rem;
 }
+.parche2{
+	text-align: left;
+	font-size: 1.6rem;
+	padding-left: 8%;
+}
+.fucse{
+	padding-bottom: 2%;	
+}
 .cont_columna input{
-	width: 90%;
+	width: 100%;
 	height: 45px;
 	font-size: 1.5rem;
 	padding-left: 2%;
@@ -381,7 +412,7 @@ body{
 	margin-bottom: 4%;
 }
 .cont_columna textarea{
-	width: 90%;
+	width: 100%;
 	height: 160px;
 	font-size: 1.5rem;
 	padding-left: 2%;
@@ -409,14 +440,13 @@ body{
 }
 .cont_columna p:nth-child(2){
 	line-height: 1.8;
-	
+	font-size: 1.5rem;
 }
 .cont_columna p:nth-child(4){
 	margin-bottom: 10%;
 }
-.parche{
-	width: 80%;	
-	padding: 3% 5% 4% 0%; 
+.parche{	
+	padding: 2% 16.6% 4% 0%; 
 }
 .icon-min{
 	padding-right: 2%;
@@ -459,29 +489,29 @@ footer{
 		margin-bottom: 70px;
 	}
 	.subtitulo{
-		font-size: 2.2rem;
+		font-size: 2.7rem;
 	}
 	
 	.op_columna p:first-child{
-		font-size: 2rem;
+		font-size: 2.5rem;
 	}
 	.descrip{
 		width: 100%;
 		line-height: 1.2;
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}                                                                                          	
 	#op_fila{
 		width: 325px;
 		margin:0 auto;
 	}
 	#opcion{
-		font-size: 1.1rem
+		font-size: 1.5rem;
 	}
 	.op_columna{
 		padding-top: 25px;
 	}
 	.op_columna p:nth-child(2){
-		font-size: 1.2rem;
+		font-size: 1.5rem;
 	}
 	.op_columna p:nth-child(2) span{
 		font-size: 2.2rem;
